@@ -1,10 +1,23 @@
-﻿namespace Maximum_Subarray
+﻿var numbers = new List<int>() { 1, -3, 2, 1, -1, 3, -2 };
+var result = MaximumSubarraySum(numbers);
+
+int MaximumSubarraySum(List<int> nums)
 {
-    internal class Program
+    int currentSum = 0;
+    int globalMax = nums[0];
+
+    foreach (int num in nums)
     {
-        static void Main(string[] args)
+        currentSum += num;
+        if (currentSum > globalMax)
         {
-            Console.WriteLine("Hello, World!");
+            globalMax = currentSum;
+        }
+        if (currentSum < 0)
+        {
+            currentSum = 0;
         }
     }
+
+    return globalMax;
 }
