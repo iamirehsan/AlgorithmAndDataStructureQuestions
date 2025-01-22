@@ -1,0 +1,17 @@
+Problem Description:
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
+Input: nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+Output: 6
+Explanation: The subarray [4, -1, 2, 1] has the largest sum = 6.
+
+
+**
+
+The array contains at least one element.
+The subarray can contain negative numbers, but its sum must be maximized.
+
+**
+
+Instead of checking all possible subarrays (which is inefficient), think about keeping a running sum of the subarray.
+If the running sum becomes negative, reset it to 0, as a negative sum will not contribute positively to any future subarray.

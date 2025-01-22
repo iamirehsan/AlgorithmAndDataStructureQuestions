@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Sum", "Two Sum\Two Sum.csproj", "{57D73DD1-7800-4BDC-A1E2-E6FA49B0A66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Subarray", "Maximum Subarray\Maximum Subarray.csproj", "{859419B9-A160-4FE5-967B-F41C4595C63A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57D73DD1-7800-4BDC-A1E2-E6FA49B0A66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D73DD1-7800-4BDC-A1E2-E6FA49B0A66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D73DD1-7800-4BDC-A1E2-E6FA49B0A66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D73DD1-7800-4BDC-A1E2-E6FA49B0A66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859419B9-A160-4FE5-967B-F41C4595C63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859419B9-A160-4FE5-967B-F41C4595C63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859419B9-A160-4FE5-967B-F41C4595C63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859419B9-A160-4FE5-967B-F41C4595C63A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9E77E26-17A4-4C2D-97B5-8C80C8B57057}
+	EndGlobalSection
+EndGlobal
